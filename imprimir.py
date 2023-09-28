@@ -10,12 +10,12 @@ def ImprimirTodo(desordenada):  #<------ Ordenamiento
                     aux2 = Lista_Ordenada[J+1]
                     Lista_Ordenada[J] = aux2
                     Lista_Ordenada[J+1] = aux
-                print(Lista_Ordenada)
+                
                 
             except:
                 pass
     
-    print(Lista_Ordenada)
+    return(Lista_Ordenada)
 
 
 #lista = [9,8,7,6,5]
